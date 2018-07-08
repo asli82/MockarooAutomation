@@ -87,7 +87,7 @@ public class MockarooDataValidation {
 		Assert.assertTrue(enabled);
 	}
 
-	@Test(priority = 0)
+	@Test(priority = 4)
 	public void checkDefaults() {
 		// 8. Assert that default number of rows is 1000.
 		String rows = driver.findElement(By.xpath("//input[@class='medium-number form-control']"))
@@ -105,7 +105,7 @@ public class MockarooDataValidation {
 	}
 
 	// 11. Assert that header checkbox is checked and BOM is unchecked
-	@Test(priority = 4)
+	@Test(priority = 5)
 	public void checkedUnckecked() {
 
 		WebElement headerChkbx = driver.findElement(By.id("schema_include_header"));
@@ -117,7 +117,7 @@ public class MockarooDataValidation {
 	}
 
 	// 12. Click on ‘Add another field’ and enter name “City”
-	@Test(priority = 5)
+	@Test(priority = 6)
 	public void addCity() throws InterruptedException {
 		driver.findElement(By.xpath("//a[@class='btn btn-default add-column-btn add_nested_fields']")).click();
 		driver.findElement(By.xpath("//div[@id='fields']/div[7]/div[2]/input")).sendKeys("City");
@@ -131,7 +131,7 @@ public class MockarooDataValidation {
 
 	}
 
-	@Test(priority = 6)
+	@Test(priority = 7)
 	public void addCountry() throws InterruptedException {
 		// 15. Repeat steps 12-14 with field name and type “Country”
 
@@ -155,13 +155,13 @@ public class MockarooDataValidation {
 
 	}
 //	 16. Click on Download Data. 
-	@Test (priority = 7)
+	@Test (priority = 8)
 	public void download() {
 		driver.findElement(By.id("download")).click();
 	}
  
 		
-	@Test (priority = 8)
+	@Test (priority = 9)
 	public void complete() throws IOException {	
 //	 17. Open the downloaded file using BufferedReader. 
 		FileReader fr = new FileReader("C:\\Users\\a_tur\\Downloads\\MOCK_DATA.csv");
