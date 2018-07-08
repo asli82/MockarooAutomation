@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12351" started-at="2018-07-08T16:54:37Z" finished-at="2018-07-08T16:54:50Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12351" started-at="2018-07-08T16:54:37Z" finished-at="2018-07-08T16:54:50Z">
+      <class name="com.mockaroo.MockarooDataValidation">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mockaroo.MockarooDataValidation@6a41eaa2]" name="setup" is-config="true" duration-ms="5170" started-at="2018-07-08T16:54:37Z" finished-at="2018-07-08T16:54:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="checkDefaults()[pri:0, instance:com.mockaroo.MockarooDataValidation@6a41eaa2]" name="checkDefaults" duration-ms="239" started-at="2018-07-08T16:54:42Z" finished-at="2018-07-08T16:54:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDefaults -->
+        <test-method status="PASS" signature="checkTitle()[pri:0, instance:com.mockaroo.MockarooDataValidation@6a41eaa2]" name="checkTitle" duration-ms="78" started-at="2018-07-08T16:54:43Z" finished-at="2018-07-08T16:54:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTitle -->
+        <test-method status="PASS" signature="remove()[pri:1, instance:com.mockaroo.MockarooDataValidation@6a41eaa2]" name="remove" duration-ms="429" started-at="2018-07-08T16:54:43Z" finished-at="2018-07-08T16:54:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- remove -->
+        <test-method status="PASS" signature="removeClickX()[pri:2, instance:com.mockaroo.MockarooDataValidation@6a41eaa2]" name="removeClickX" duration-ms="107" started-at="2018-07-08T16:54:43Z" finished-at="2018-07-08T16:54:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeClickX -->
+        <test-method status="PASS" signature="checkAddAnotherField()[pri:3, instance:com.mockaroo.MockarooDataValidation@6a41eaa2]" name="checkAddAnotherField" duration-ms="29" started-at="2018-07-08T16:54:43Z" finished-at="2018-07-08T16:54:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAddAnotherField -->
+        <test-method status="PASS" signature="checkedUnckecked()[pri:4, instance:com.mockaroo.MockarooDataValidation@6a41eaa2]" name="checkedUnckecked" duration-ms="52" started-at="2018-07-08T16:54:43Z" finished-at="2018-07-08T16:54:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkedUnckecked -->
+        <test-method status="PASS" signature="addCity()[pri:5, instance:com.mockaroo.MockarooDataValidation@6a41eaa2]" name="addCity" duration-ms="2479" started-at="2018-07-08T16:54:43Z" finished-at="2018-07-08T16:54:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCity -->
+        <test-method status="PASS" signature="addCountry()[pri:6, instance:com.mockaroo.MockarooDataValidation@6a41eaa2]" name="addCountry" duration-ms="3408" started-at="2018-07-08T16:54:46Z" finished-at="2018-07-08T16:54:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCountry -->
+        <test-method status="PASS" signature="download()[pri:7, instance:com.mockaroo.MockarooDataValidation@6a41eaa2]" name="download" duration-ms="314" started-at="2018-07-08T16:54:49Z" finished-at="2018-07-08T16:54:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- download -->
+        <test-method status="PASS" signature="complete()[pri:8, instance:com.mockaroo.MockarooDataValidation@6a41eaa2]" name="complete" duration-ms="17" started-at="2018-07-08T16:54:50Z" finished-at="2018-07-08T16:54:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- complete -->
+      </class> <!-- com.mockaroo.MockarooDataValidation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
